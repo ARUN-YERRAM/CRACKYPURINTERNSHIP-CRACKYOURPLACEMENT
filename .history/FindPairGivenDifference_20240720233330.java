@@ -1,7 +1,4 @@
-import java.util.*;
-
 class Solution {
-
     public int findPair(int n, int x, int[] arr) {
         // Sort the array
         Arrays.sort(arr);
