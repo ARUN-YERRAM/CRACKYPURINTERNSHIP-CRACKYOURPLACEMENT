@@ -24,17 +24,3 @@ public:
     }
 };
 
-class Solution {
-public:
-    vector<int> countBits(int n) {
-        vector<int>ans(n+1,0);
-
-        for(int i=1;i<=n;i++){
-            int c = 0;
-            // int j = i;
-            for(int j=0;j<32;j++){
-                if((i >>j ) & 1 == 1)c++;
-            }ans[i] = c;
-        }return ans;
-    }
-};
