@@ -28,12 +28,9 @@ public:
         // code here 
         
         int n = arr.size();
-        int sum = 0;
         for(auto it:arr){
             sum += it;
         }
-        if(sum%2 != 0)return false;
-        
         return isTrue(arr,sum/2,n-1);
     }
 };

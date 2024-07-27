@@ -33,7 +33,6 @@ public:
             sum += it;
         }
         if(sum%2 != 0)return false;
-        
         return isTrue(arr,sum/2,n-1);
     }
 };

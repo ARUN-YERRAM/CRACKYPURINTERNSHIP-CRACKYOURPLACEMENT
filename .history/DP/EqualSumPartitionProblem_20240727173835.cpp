@@ -32,8 +32,7 @@ public:
         for(auto it:arr){
             sum += it;
         }
-        if(sum%2 != 0)return false;
-        
+        if()
         return isTrue(arr,sum/2,n-1);
     }
 };
